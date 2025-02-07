@@ -51,7 +51,11 @@
 // console.log(text.charAt(4));  // Output: "S"
 // console.log(text.charAt(20)); // Output: "" (empty string)
 
-let text = "Hello, world!";
-console.log(text.indexOf("world"));  // Output: 7
-console.log(text.indexOf("o"));      // Output: 4 (first occurrence of "o")
-console.log(text.indexOf("xyz"));  //Output: -1 (not found)// or false in this statment in javascript
+// let text = "Hello, world!";
+// console.log(text.indexOf("world"));  // Output: 7
+// console.log(text.indexOf("o"));      // Output: 4 (first occurrence of "o")
+// console.log(text.indexOf("xyz"));  //Output: -1 (not found)// or false in this statment in javascript
+
+const url = "https://sahil kumar.com/ sahil%20kumar"
+
+console.log(url.replace('%20','-'))
