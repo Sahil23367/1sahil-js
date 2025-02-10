@@ -56,6 +56,22 @@
 // console.log(text.indexOf("o"));      // Output: 4 (first occurrence of "o")
 // console.log(text.indexOf("xyz"));  //Output: -1 (not found)// or false in this statment in javascript
 
-const url = "https://sahil kumar.com/ sahil%20kumar"
+// const url = "https://sahil kumar.com/ sahil%20kumar"
 
-console.log(url.replace('%20','-'))
+// console.log(url.replace('%20','-'))
+
+
+// let now = new time();
+// console.log(now); //current date and time
+
+
+// let myDate= new Date()
+// console.log(myDate.toLocaleString());
+
+// let myTimeStamp= Date.now()
+// console.log(myTimeStamp.)
+
+newDate.localString('default', {
+    weekdays:"long"
+})
+
