@@ -71,7 +71,32 @@
 // let myTimeStamp= Date.now()
 // console.log(myTimeStamp.)
 
-newDate.localString('default', {
-    weekdays:"long"
-})
+// newDate.localString('default', {
+//     weekdays:"long"
+// })
+
+// array
+
+// const myArr=[0,1,2,3]
+
+// console.log(myArr.length);
+
+// const newArr=new Array(1,2,3,4)
+// console.log(myArr[6])
+
+
+
+
+
+//array methods
+// myArr.push(10)
+
+// console.log(myArr)
+
+
+
+const myArr= [0,1,2,3,4,5]
+myArr.unshift(10)
+console.log(myArr)
+
 
